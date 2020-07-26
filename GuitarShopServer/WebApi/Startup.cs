@@ -33,6 +33,8 @@ namespace WebApi
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureMsSqlContext(Configuration);
+            services.ConfigureRepositoryWrapper();
 
             services.AddControllers();
         }

@@ -142,3 +142,1579 @@
 2020-07-26 12:23:05.3290 Trace Opening F:\_aspa\GuitarShop/GuitarShopServer\logs\2020-07-26_logfile.txt with allowFileSharedWriting=False
 2020-07-26 12:23:05.3478 Trace Opening F:\_aspa\GuitarShop/GuitarShopServer\logs\2020-07-26_logfile.txt with allowFileSharedWriting=False
 2020-07-26 12:23:05.3663 Trace Opening F:\_aspa\GuitarShop/GuitarShopServer\logs\2020-07-26_logfile.txt with allowFileSharedWriting=False
+2020-07-26 13:04:43.0991 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:04:43.1737 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:04:43.1868 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:04:43.2073 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:04:43.2198 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:04:43.2291 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:04:43.2437 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:04:43.2437 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:04:43.2679 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:04:43.2791 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:04:43.2890 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:04:43.2890 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:04:43.3088 Debug Auto loading done
+2020-07-26 13:04:43.3088 Info Message Template Auto Format enabled
+2020-07-26 13:04:43.3513 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.3513 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:04:43.3814 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:04:43.3920 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:04:43.4022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.4022 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:43.4219 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.4316 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:04:43.4316 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:04:43.4534 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:04:43.4879 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:43.4996 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:43.5086 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.5086 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:04:43.5287 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.5381 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:04:43.5550 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:04:43.5550 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:04:43.5748 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.5748 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:04:43.5955 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:04:43.6053 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.6053 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:04:43.6242 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:04:43.6334 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:04:43.6334 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.6529 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:43.6529 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.6719 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:04:43.6821 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:04:43.6821 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:04:43.7006 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:43.7006 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:43.7205 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:43.7309 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:04:43.7309 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:04:43.7508 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:04:43.7620 Trace ParseRulesElement
+2020-07-26 13:04:43.7956 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:04:43.8321 Debug --- NLog configuration dump ---
+2020-07-26 13:04:43.8414 Debug Targets:
+2020-07-26 13:04:43.8525 Debug File Target[logfile]
+2020-07-26 13:04:43.8525 Debug Rules:
+2020-07-26 13:04:43.8733 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:04:43.8842 Debug --- End of NLog configuration dump ---
+2020-07-26 13:04:43.8980 Trace FindReachableObject<System.Object>:
+2020-07-26 13:04:43.8980 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:04:43.9172 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:04:43.9172 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:04:43.9367 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:04:43.9477 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:04:43.9477 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:43.9667 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:43.9762 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:04:43.9762 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:43.9967 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:04:43.9967 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:04:44.0179 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:44.0290 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:04:44.0385 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:44.0385 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:04:44.0593 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:04:44.0593 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:04:44.0804 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:44.0906 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:44.1038 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:44.1038 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:04:44.1247 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:04:44.1357 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:04:44.1357 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:04:44.1586 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:04:44.1725 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:04:44.1892 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:04:44.1999 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:04:44.2124 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:04:44.2124 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:04:44.2353 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:04:44.2514 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:44.2623 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:04:44.2623 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:44.2818 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:44.2951 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:04:44.3045 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:04:44.3045 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:04:44.3237 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:04:44.3237 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:44.3426 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:04:44.3520 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:44.3520 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:04:44.3706 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:44.3706 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:04:44.3896 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:04:44.3994 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:04:44.3994 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:44.4187 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:04:44.4187 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:44.4375 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:04:44.4480 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:04:44.4480 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:04:44.4663 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:04:44.4663 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:04:44.4866 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:04:44.4959 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:04:44.4959 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:04:44.5158 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:44.5249 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:04:44.5249 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:04:44.5433 Trace Initializing File Target[logfile]
+2020-07-26 13:04:44.5543 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:04:44.5543 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:04:44.5735 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:04:44.5735 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:04:44.5920 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:04:44.6013 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:04:44.6013 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:04:44.6202 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:04:44.6202 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:05:11.9121 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:05:11.9808 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:05:11.9915 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:05:12.0110 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:05:12.0110 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:05:12.0335 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:05:12.0491 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:05:12.0579 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:05:12.0699 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:05:12.0699 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:05:12.0902 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:05:12.0902 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:05:12.1091 Debug Auto loading done
+2020-07-26 13:05:12.1183 Info Message Template Auto Format enabled
+2020-07-26 13:05:12.1495 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.1495 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:05:12.1832 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:05:12.1974 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:05:12.1974 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.2161 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:12.2262 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.2262 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:05:12.2478 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:05:12.2709 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:05:12.2811 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:12.2917 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:12.2917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.3105 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:05:12.3206 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.3206 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:05:12.3449 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:05:12.3547 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:05:12.3547 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.3734 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:05:12.3838 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:05:12.3838 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.4019 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:05:12.4019 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:05:12.4204 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:05:12.4291 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.4291 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:12.4476 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.4476 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:05:12.4660 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:05:12.4660 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:05:12.4852 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:12.4943 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:12.4943 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.5130 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:05:12.5130 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:05:12.5331 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:05:12.5436 Trace ParseRulesElement
+2020-07-26 13:05:12.5757 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:05:12.5866 Debug --- NLog configuration dump ---
+2020-07-26 13:05:12.5866 Debug Targets:
+2020-07-26 13:05:12.6063 Debug File Target[logfile]
+2020-07-26 13:05:12.6063 Debug Rules:
+2020-07-26 13:05:12.6271 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:05:12.6364 Debug --- End of NLog configuration dump ---
+2020-07-26 13:05:12.6505 Trace FindReachableObject<System.Object>:
+2020-07-26 13:05:12.6505 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:05:12.6698 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:05:12.6792 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:05:12.6792 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:05:12.6982 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:05:12.6982 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:12.7168 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:12.7265 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:05:12.7265 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:12.7450 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:05:12.7450 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:05:12.7639 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:12.7733 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:05:12.7733 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:12.7929 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:05:12.7929 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:05:12.8111 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:05:12.8204 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:12.8204 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:12.8390 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:12.8390 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:05:12.8582 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:05:12.8678 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:05:12.8678 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:05:12.8895 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:05:12.9014 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:05:12.9196 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:05:12.9290 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:05:12.9290 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:05:12.9502 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:05:12.9502 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:05:12.9736 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:12.9850 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:05:12.9942 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:12.9942 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:13.0213 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:05:13.0337 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:05:13.0454 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:05:13.0591 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:05:13.0708 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:13.0708 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:05:13.0913 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:13.1018 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:05:13.1018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:13.1209 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:05:13.1209 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:05:13.1408 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:05:13.1503 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:13.1503 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:05:13.1699 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:13.1699 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:05:13.1888 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:05:13.1991 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:05:13.1991 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:05:13.2178 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:05:13.2272 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:05:13.2272 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:05:13.2456 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:05:13.2456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:13.2649 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:05:13.2744 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:05:13.2744 Trace Initializing File Target[logfile]
+2020-07-26 13:05:13.2953 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:05:13.3048 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:05:13.3048 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:05:13.3241 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:05:13.3241 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:05:13.3426 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:05:13.3524 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:05:13.3524 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:05:13.3720 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:09:16.0014 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:09:16.0795 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:09:16.0910 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:09:16.1093 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:09:16.1208 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:09:16.1208 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:09:16.1454 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:09:16.1548 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:09:16.1667 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:09:16.1667 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:09:16.1875 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:09:16.1974 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:09:16.1974 Debug Auto loading done
+2020-07-26 13:09:16.2164 Info Message Template Auto Format enabled
+2020-07-26 13:09:16.2524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.2660 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:09:16.2842 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:09:16.2953 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:09:16.3052 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.3052 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:16.3281 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.3386 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:09:16.3529 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:09:16.3529 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:09:16.3732 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:16.3854 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:16.3854 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.4052 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:09:16.4147 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.4147 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:09:16.4407 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:09:16.4503 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:09:16.4503 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.4694 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:09:16.4797 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:09:16.4797 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.4995 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:09:16.5087 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:09:16.5087 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:09:16.5281 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.5384 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:16.5384 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.5595 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:09:16.5720 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:09:16.5720 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:09:16.5938 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:16.6042 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:16.6042 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:16.6253 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:09:16.6388 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:09:16.6506 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:09:16.6639 Trace ParseRulesElement
+2020-07-26 13:09:16.6996 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:09:16.7113 Debug --- NLog configuration dump ---
+2020-07-26 13:09:16.7113 Debug Targets:
+2020-07-26 13:09:16.7330 Debug File Target[logfile]
+2020-07-26 13:09:16.7431 Debug Rules:
+2020-07-26 13:09:16.7431 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:09:16.7663 Debug --- End of NLog configuration dump ---
+2020-07-26 13:09:16.7803 Trace FindReachableObject<System.Object>:
+2020-07-26 13:09:16.7900 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:09:16.7900 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:09:16.8095 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:09:16.8095 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:09:16.8286 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:09:16.8382 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:16.8382 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:16.8570 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:09:16.8675 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:16.8675 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:09:16.8879 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:09:16.8987 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:16.8987 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:09:16.9185 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:16.9185 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:09:16.9407 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:09:16.9516 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:09:16.9623 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:16.9623 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:16.9869 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:16.9996 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:09:17.0098 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:09:17.0098 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:09:17.0333 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:09:17.0466 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:09:17.0593 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:09:17.0778 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:09:17.0877 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:09:17.0877 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:09:17.1082 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:09:17.1215 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:09:17.1393 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:17.1529 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:09:17.1636 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:17.1636 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:17.1904 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:09:17.2006 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:09:17.2006 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:09:17.2196 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:09:17.2286 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:17.2286 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:09:17.2483 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:17.2579 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:09:17.2579 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:17.2775 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:09:17.2879 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:09:17.2879 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:09:17.3066 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:17.3066 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:09:17.3253 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:17.3253 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:09:17.3445 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:09:17.3539 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:09:17.3539 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:09:17.3723 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:09:17.3723 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:09:17.3918 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:09:17.4019 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:09:17.4019 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:17.4212 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:09:17.4308 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:09:17.4308 Trace Initializing File Target[logfile]
+2020-07-26 13:09:17.4524 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:09:17.4624 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:09:17.4624 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:09:17.4838 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:09:17.4944 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:09:17.4944 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:09:17.5145 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:09:17.5241 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:09:17.5241 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:13:07.2084 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:13:07.2844 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:13:07.2961 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:13:07.3151 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:13:07.3264 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:13:07.3367 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:13:07.3524 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:13:07.3524 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:13:07.3747 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:13:07.3856 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:13:07.3856 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:13:07.4046 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:13:07.4138 Debug Auto loading done
+2020-07-26 13:13:07.4138 Info Message Template Auto Format enabled
+2020-07-26 13:13:07.4547 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.4676 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:13:07.4851 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:13:07.4968 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:13:07.4968 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.5157 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:07.5254 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.5254 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:13:07.5482 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:13:07.5572 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:13:07.5572 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:07.5790 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:07.5881 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.5881 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:13:07.6077 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.6174 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:13:07.6355 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:13:07.6355 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:13:07.6550 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.6644 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:13:07.6644 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:13:07.6841 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.6841 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:13:07.7031 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:13:07.7125 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:13:07.7125 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.7309 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:07.7309 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.7506 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:13:07.7596 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:13:07.7596 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:13:07.7794 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:07.7886 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:07.7886 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:07.8074 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:13:07.8074 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:13:07.8269 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:13:07.8370 Trace ParseRulesElement
+2020-07-26 13:13:07.8696 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:13:07.8696 Debug --- NLog configuration dump ---
+2020-07-26 13:13:07.8897 Debug Targets:
+2020-07-26 13:13:07.9000 Debug File Target[logfile]
+2020-07-26 13:13:07.9000 Debug Rules:
+2020-07-26 13:13:07.9217 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:13:07.9310 Debug --- End of NLog configuration dump ---
+2020-07-26 13:13:07.9310 Trace FindReachableObject<System.Object>:
+2020-07-26 13:13:07.9540 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:13:07.9636 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:13:07.9636 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:13:07.9844 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:13:07.9934 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:13:07.9934 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.0149 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.0242 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:13:08.0242 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.0444 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:13:08.0543 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:13:08.0543 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.0732 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:13:08.0732 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.0918 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:13:08.1017 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:13:08.1017 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:13:08.1202 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.1202 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:08.1398 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.1492 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:13:08.1492 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:13:08.1688 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:13:08.1688 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:13:08.1911 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:13:08.2029 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:13:08.2195 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:13:08.2290 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:13:08.2290 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:13:08.2493 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:13:08.2584 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:13:08.2584 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:08.2817 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:13:08.2909 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.2909 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:08.3182 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:13:08.3297 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:13:08.3418 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:13:08.3520 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:13:08.3520 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:08.3718 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:13:08.3824 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.3824 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:13:08.4019 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.4019 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:13:08.4214 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:13:08.4308 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:13:08.4308 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.4506 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:13:08.4506 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.4696 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:13:08.4799 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:13:08.4799 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:13:08.4997 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:13:08.5086 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:13:08.5086 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:13:08.5275 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:13:08.5275 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:13:08.5465 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.5558 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:13:08.5558 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:13:08.5760 Trace Initializing File Target[logfile]
+2020-07-26 13:13:08.5874 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:13:08.5874 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:13:08.6070 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:13:08.6162 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:13:08.6162 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:13:08.6350 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:13:08.6350 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:13:08.6539 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:13:08.6645 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:23:38.1778 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:23:38.2303 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:23:38.2303 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:23:38.2428 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:23:38.2428 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:23:38.2428 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:23:38.2428 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:23:38.2428 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:23:38.2428 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:23:38.2579 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:23:38.2579 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:23:38.2579 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:23:38.2579 Debug Auto loading done
+2020-07-26 13:23:38.2579 Info Message Template Auto Format enabled
+2020-07-26 13:23:38.2847 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.2884 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:23:38.2884 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:23:38.2884 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:23:38.2884 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.2884 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.3041 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3041 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:23:38.3041 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:23:38.3041 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:23:38.3041 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.3041 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.3041 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3041 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:23:38.3041 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3041 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:23:38.3280 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:23:38.3280 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:23:38.3280 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3280 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:23:38.3280 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:23:38.3280 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3280 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:23:38.3350 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:23:38.3350 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:23:38.3350 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3350 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.3350 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3350 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:23:38.3350 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:23:38.3350 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:23:38.3350 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.3350 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.3350 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.3350 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:23:38.3350 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:23:38.3525 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:23:38.3525 Trace ParseRulesElement
+2020-07-26 13:23:38.3972 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:23:38.3987 Debug --- NLog configuration dump ---
+2020-07-26 13:23:38.3987 Debug Targets:
+2020-07-26 13:23:38.3987 Debug File Target[logfile]
+2020-07-26 13:23:38.3987 Debug Rules:
+2020-07-26 13:23:38.3987 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:23:38.3987 Debug --- End of NLog configuration dump ---
+2020-07-26 13:23:38.4171 Trace FindReachableObject<System.Object>:
+2020-07-26 13:23:38.4171 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:23:38.4171 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:23:38.4171 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:23:38.4171 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:23:38.4171 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:23:38.4171 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4171 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4171 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:23:38.4171 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4171 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:23:38.4298 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:23:38.4298 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4298 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:23:38.4298 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4298 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:23:38.4298 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:23:38.4298 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:23:38.4298 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4298 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.4298 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4298 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:23:38.4298 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:23:38.4298 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:23:38.4298 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:23:38.4298 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:23:38.4298 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:23:38.4525 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:23:38.4525 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:23:38.4525 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:23:38.4525 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:23:38.4525 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:23:38.4602 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.4602 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:23:38.4602 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4602 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.4602 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:23:38.4602 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:23:38.4602 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:23:38.4602 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:23:38.4602 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.4602 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:23:38.4602 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4602 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:23:38.4602 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4602 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:23:38.4602 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:23:38.4602 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:23:38.4602 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4602 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:23:38.4602 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4602 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:23:38.4602 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:23:38.4602 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:23:38.4602 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:23:38.4602 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:23:38.4765 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:23:38.4765 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:23:38.4765 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:23:38.4765 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4765 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:23:38.4765 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:23:38.4914 Trace Initializing File Target[logfile]
+2020-07-26 13:23:38.4914 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:23:38.4914 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:23:38.4914 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:23:38.4914 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:23:38.4914 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:23:38.4914 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:23:38.4914 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:23:38.4914 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:23:38.4914 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:23:39.9028 Info AppDomain Shutting down. Logger closing...
+2020-07-26 13:23:39.9028 Debug Stopping file watching for path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config'
+2020-07-26 13:23:39.9028 Trace Flushing all 1 targets...
+2020-07-26 13:23:39.9130 Trace ForEachItemInParallel() 1 items
+2020-07-26 13:23:39.9130 Trace FileTarget(Name=logfile): FlushAsync
+2020-07-26 13:23:39.9130 Trace Continuation invoked: 
+2020-07-26 13:23:39.9130 Trace Parallel task completed. 0 items remaining
+2020-07-26 13:23:39.9130 Debug Flush completed
+2020-07-26 13:23:39.9130 Trace FileTarget(Name=logfile): FlushAsync Done
+2020-07-26 13:23:39.9130 Debug Closing logging configuration...
+2020-07-26 13:23:39.9130 Trace Closing File Target[logfile]
+2020-07-26 13:23:39.9130 Debug Closing target 'File Target[logfile]'.
+2020-07-26 13:23:39.9309 Debug Closed target 'File Target[logfile]'.
+2020-07-26 13:23:39.9309 Trace Closing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${shortdate}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:23:39.9309 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${longdate}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${uppercase}
+2020-07-26 13:23:39.9309 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${level}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:23:39.9309 Trace Closing Layout Renderer: ${message}
+2020-07-26 13:23:39.9309 Debug Finished closing logging configuration.
+2020-07-26 13:23:39.9309 Info Logger has been shut down.
+2020-07-26 13:24:00.8271 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:24:00.8748 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:24:00.8748 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:24:00.8862 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:24:00.8862 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:24:00.8862 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:24:00.8862 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:24:00.8862 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:24:00.8991 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:24:00.8991 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:24:00.8991 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:24:00.8991 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:24:00.8991 Debug Auto loading done
+2020-07-26 13:24:00.8991 Info Message Template Auto Format enabled
+2020-07-26 13:24:00.9279 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9315 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:00.9315 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:24:00.9315 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:24:00.9315 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9315 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:00.9315 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9315 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:00.9456 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:00.9456 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:00.9456 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:00.9456 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:00.9456 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9456 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:24:00.9456 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9456 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:00.9614 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:24:00.9614 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:00.9614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9614 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:00.9614 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:00.9614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9614 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:00.9614 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:24:00.9614 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:24:00.9614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9614 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:00.9614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9614 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:00.9614 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:00.9614 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:00.9614 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:00.9614 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:00.9614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:00.9614 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:00.9759 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:24:00.9759 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:24:00.9759 Trace ParseRulesElement
+2020-07-26 13:24:01.0011 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:24:01.0011 Debug --- NLog configuration dump ---
+2020-07-26 13:24:01.0011 Debug Targets:
+2020-07-26 13:24:01.0011 Debug File Target[logfile]
+2020-07-26 13:24:01.0011 Debug Rules:
+2020-07-26 13:24:01.0071 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:24:01.0071 Debug --- End of NLog configuration dump ---
+2020-07-26 13:24:01.0071 Trace FindReachableObject<System.Object>:
+2020-07-26 13:24:01.0071 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:24:01.0071 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:24:01.0071 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:24:01.0071 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:24:01.0071 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:01.0071 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0071 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0071 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:01.0071 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0071 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:24:01.0071 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:01.0071 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0071 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:01.0234 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0234 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:01.0234 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:01.0234 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:01.0234 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0234 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:01.0234 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0234 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:01.0234 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:24:01.0234 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:24:01.0234 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:24:01.0234 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:24:01.0385 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:24:01.0385 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:24:01.0385 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:24:01.0385 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:01.0385 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:24:01.0385 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:24:01.0559 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:01.0559 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:01.0559 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0559 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:01.0559 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:24:01.0559 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:01.0559 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:24:01.0559 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:01.0559 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:01.0559 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:01.0559 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0559 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:01.0559 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0559 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:01.0559 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:01.0559 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:01.0702 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0702 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:01.0702 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0702 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:01.0702 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:01.0702 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:24:01.0702 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:01.0702 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:01.0702 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:01.0702 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:01.0702 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:01.0702 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0702 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:01.0702 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:01.0702 Trace Initializing File Target[logfile]
+2020-07-26 13:24:01.0702 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:24:01.0702 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:24:01.0702 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:24:01.0702 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:01.0702 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:24:01.0855 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:01.0855 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:24:01.0855 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:24:01.0855 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:24:02.3767 Info AppDomain Shutting down. Logger closing...
+2020-07-26 13:24:02.3767 Debug Stopping file watching for path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config'
+2020-07-26 13:24:02.3834 Trace Flushing all 1 targets...
+2020-07-26 13:24:02.3834 Trace ForEachItemInParallel() 1 items
+2020-07-26 13:24:02.3834 Trace FileTarget(Name=logfile): FlushAsync
+2020-07-26 13:24:02.3834 Trace Continuation invoked: 
+2020-07-26 13:24:02.3834 Trace Parallel task completed. 0 items remaining
+2020-07-26 13:24:02.3834 Debug Flush completed
+2020-07-26 13:24:02.3834 Trace FileTarget(Name=logfile): FlushAsync Done
+2020-07-26 13:24:02.3834 Debug Closing logging configuration...
+2020-07-26 13:24:02.3979 Trace Closing File Target[logfile]
+2020-07-26 13:24:02.3979 Debug Closing target 'File Target[logfile]'.
+2020-07-26 13:24:02.3979 Debug Closed target 'File Target[logfile]'.
+2020-07-26 13:24:02.3979 Trace Closing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${shortdate}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:02.3979 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${longdate}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${uppercase}
+2020-07-26 13:24:02.3979 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${level}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:02.3979 Trace Closing Layout Renderer: ${message}
+2020-07-26 13:24:02.3979 Debug Finished closing logging configuration.
+2020-07-26 13:24:02.3979 Info Logger has been shut down.
+2020-07-26 13:24:32.2857 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:24:32.3474 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:24:32.3474 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:24:32.3623 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:24:32.3623 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:24:32.3759 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:24:32.3876 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:24:32.3876 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:24:32.3876 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:24:32.3876 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:24:32.3876 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:24:32.3876 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:24:32.3876 Debug Auto loading done
+2020-07-26 13:24:32.3876 Info Message Template Auto Format enabled
+2020-07-26 13:24:32.4243 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4243 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:32.4366 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:24:32.4366 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:24:32.4366 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4366 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.4366 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4366 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:32.4450 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:32.4450 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:32.4450 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.4450 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.4450 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4450 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:24:32.4450 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4450 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:32.4450 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:24:32.4450 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:32.4603 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4603 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:32.4603 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:32.4603 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4603 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:32.4603 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:24:32.4603 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:24:32.4603 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4603 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.4603 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4603 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:32.4603 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:32.4603 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:32.4603 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.4603 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.4603 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.4603 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:32.4603 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:24:32.4603 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:24:32.4603 Trace ParseRulesElement
+2020-07-26 13:24:32.4980 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:24:32.4980 Debug --- NLog configuration dump ---
+2020-07-26 13:24:32.4980 Debug Targets:
+2020-07-26 13:24:32.4980 Debug File Target[logfile]
+2020-07-26 13:24:32.4980 Debug Rules:
+2020-07-26 13:24:32.5071 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:24:32.5071 Debug --- End of NLog configuration dump ---
+2020-07-26 13:24:32.5071 Trace FindReachableObject<System.Object>:
+2020-07-26 13:24:32.5071 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:24:32.5071 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:24:32.5071 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:24:32.5071 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:24:32.5071 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:32.5071 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5071 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5071 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:32.5071 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5071 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:24:32.5071 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:32.5071 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5231 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:32.5231 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5231 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:32.5231 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:32.5231 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:32.5231 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5231 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.5231 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5231 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:32.5231 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:24:32.5231 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:24:32.5231 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:24:32.5231 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:24:32.5231 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:24:32.5464 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:24:32.5464 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:24:32.5464 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:32.5464 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:24:32.5464 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:24:32.5550 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.5550 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:32.5550 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5550 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.5550 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:24:32.5550 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:32.5550 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:24:32.5550 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:32.5550 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.5550 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:32.5550 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5550 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:32.5550 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5550 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:32.5550 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:32.5550 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:32.5550 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5704 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:32.5704 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5704 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:32.5704 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:32.5704 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:24:32.5704 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:32.5704 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:32.5704 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:32.5704 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:32.5704 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:32.5704 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5704 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:32.5704 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:32.5704 Trace Initializing File Target[logfile]
+2020-07-26 13:24:32.5704 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:24:32.5704 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:24:32.5704 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:24:32.5704 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:32.5852 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:24:32.5852 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:32.5852 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:24:32.5852 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:24:32.5852 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:24:33.8275 Info AppDomain Shutting down. Logger closing...
+2020-07-26 13:24:33.8275 Debug Stopping file watching for path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config'
+2020-07-26 13:24:33.8275 Trace Flushing all 1 targets...
+2020-07-26 13:24:33.8368 Trace ForEachItemInParallel() 1 items
+2020-07-26 13:24:33.8368 Trace FileTarget(Name=logfile): FlushAsync
+2020-07-26 13:24:33.8368 Trace Continuation invoked: 
+2020-07-26 13:24:33.8368 Trace Parallel task completed. 0 items remaining
+2020-07-26 13:24:33.8368 Debug Flush completed
+2020-07-26 13:24:33.8368 Trace FileTarget(Name=logfile): FlushAsync Done
+2020-07-26 13:24:33.8368 Debug Closing logging configuration...
+2020-07-26 13:24:33.8368 Trace Closing File Target[logfile]
+2020-07-26 13:24:33.8368 Debug Closing target 'File Target[logfile]'.
+2020-07-26 13:24:33.8368 Debug Closed target 'File Target[logfile]'.
+2020-07-26 13:24:33.8368 Trace Closing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:33.8368 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:33.8368 Trace Closing Layout Renderer: ${shortdate}
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:33.8511 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${longdate}
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${uppercase}
+2020-07-26 13:24:33.8511 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${level}
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:33.8511 Trace Closing Layout Renderer: ${message}
+2020-07-26 13:24:33.8511 Debug Finished closing logging configuration.
+2020-07-26 13:24:33.8511 Info Logger has been shut down.
+2020-07-26 13:24:51.5166 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:24:51.5653 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:24:51.5653 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:24:51.5795 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:24:51.5795 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:24:51.5795 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:24:51.5904 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:24:51.5904 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:24:51.5904 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:24:51.5904 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:24:51.5904 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:24:51.5904 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:24:51.5904 Debug Auto loading done
+2020-07-26 13:24:51.5904 Info Message Template Auto Format enabled
+2020-07-26 13:24:51.6217 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6217 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:51.6331 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:24:51.6331 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:24:51.6331 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6331 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.6331 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6331 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:51.6331 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:51.6331 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:51.6331 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.6331 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.6331 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6331 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:24:51.6331 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6480 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:51.6480 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:24:51.6480 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:51.6480 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6480 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:51.6480 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:51.6480 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6480 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:51.6480 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:24:51.6480 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:24:51.6631 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6631 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.6631 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6631 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:51.6631 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:51.6631 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:51.6631 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.6631 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.6631 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.6631 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:51.6631 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:24:51.6631 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:24:51.6631 Trace ParseRulesElement
+2020-07-26 13:24:51.6955 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:24:51.6955 Debug --- NLog configuration dump ---
+2020-07-26 13:24:51.6955 Debug Targets:
+2020-07-26 13:24:51.6955 Debug File Target[logfile]
+2020-07-26 13:24:51.6955 Debug Rules:
+2020-07-26 13:24:51.6955 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:24:51.6955 Debug --- End of NLog configuration dump ---
+2020-07-26 13:24:51.6955 Trace FindReachableObject<System.Object>:
+2020-07-26 13:24:51.6955 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:24:51.6955 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:24:51.7125 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:24:51.7125 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:24:51.7125 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:51.7125 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7125 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7125 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:51.7125 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7125 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:24:51.7125 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:51.7125 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7125 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:51.7125 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7125 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:51.7125 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:51.7125 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:51.7125 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7125 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.7277 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7277 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:51.7277 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:24:51.7277 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:24:51.7277 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:24:51.7277 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:24:51.7277 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:24:51.7463 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:24:51.7463 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:24:51.7463 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:51.7463 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:24:51.7463 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:24:51.7463 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.7463 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:51.7463 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7463 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.7598 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:24:51.7598 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:51.7598 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:24:51.7598 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:51.7598 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.7598 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:51.7598 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7598 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:24:51.7598 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7598 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:24:51.7598 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:24:51.7598 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:24:51.7598 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7598 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:24:51.7598 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7598 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:24:51.7598 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:51.7598 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:24:51.7598 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:24:51.7598 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:51.7598 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:24:51.7598 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:51.7598 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:24:51.7598 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7598 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:24:51.7598 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:24:51.7598 Trace Initializing File Target[logfile]
+2020-07-26 13:24:51.7598 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:24:51.7730 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:24:51.7730 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:24:51.7730 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:24:51.7730 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:24:51.7730 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:24:51.7730 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:24:51.7730 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:24:51.7730 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:24:53.3460 Info AppDomain Shutting down. Logger closing...
+2020-07-26 13:24:53.3460 Debug Stopping file watching for path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config'
+2020-07-26 13:24:53.3530 Trace Flushing all 1 targets...
+2020-07-26 13:24:53.3530 Trace ForEachItemInParallel() 1 items
+2020-07-26 13:24:53.3530 Trace FileTarget(Name=logfile): FlushAsync
+2020-07-26 13:24:53.3530 Trace Continuation invoked: 
+2020-07-26 13:24:53.3530 Trace Parallel task completed. 0 items remaining
+2020-07-26 13:24:53.3530 Debug Flush completed
+2020-07-26 13:24:53.3530 Trace FileTarget(Name=logfile): FlushAsync Done
+2020-07-26 13:24:53.3530 Debug Closing logging configuration...
+2020-07-26 13:24:53.3530 Trace Closing File Target[logfile]
+2020-07-26 13:24:53.3666 Debug Closing target 'File Target[logfile]'.
+2020-07-26 13:24:53.3666 Debug Closed target 'File Target[logfile]'.
+2020-07-26 13:24:53.3666 Trace Closing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${shortdate}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:53.3666 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${longdate}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${uppercase}
+2020-07-26 13:24:53.3666 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${level}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:24:53.3666 Trace Closing Layout Renderer: ${message}
+2020-07-26 13:24:53.3666 Debug Finished closing logging configuration.
+2020-07-26 13:24:53.3666 Info Logger has been shut down.
+2020-07-26 13:27:09.8804 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:27:09.9334 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:27:09.9334 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:27:09.9468 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:27:09.9468 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:27:09.9468 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:27:09.9468 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:27:09.9468 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:27:09.9614 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:27:09.9614 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:27:09.9614 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:27:09.9614 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:27:09.9614 Debug Auto loading done
+2020-07-26 13:27:09.9614 Info Message Template Auto Format enabled
+2020-07-26 13:27:09.9884 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:09.9920 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:27:09.9920 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:27:09.9920 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:27:09.9920 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:09.9920 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:09.9920 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:09.9920 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:27:10.0073 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:27:10.0073 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:27:10.0073 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.0073 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:10.0073 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0073 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:27:10.0073 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0073 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:27:10.0073 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:27:10.0073 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:27:10.0073 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0073 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:27:10.0240 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:27:10.0240 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0240 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:27:10.0240 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:27:10.0240 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:27:10.0240 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0240 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:10.0240 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0240 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:27:10.0240 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:27:10.0240 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:27:10.0240 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.0240 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:10.0240 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.0240 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:27:10.0240 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:27:10.0240 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:27:10.0240 Trace ParseRulesElement
+2020-07-26 13:27:10.0584 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:27:10.0584 Debug --- NLog configuration dump ---
+2020-07-26 13:27:10.0584 Debug Targets:
+2020-07-26 13:27:10.0584 Debug File Target[logfile]
+2020-07-26 13:27:10.0584 Debug Rules:
+2020-07-26 13:27:10.0584 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:27:10.0584 Debug --- End of NLog configuration dump ---
+2020-07-26 13:27:10.0700 Trace FindReachableObject<System.Object>:
+2020-07-26 13:27:10.0700 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:27:10.0700 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:27:10.0700 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:27:10.0700 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:27:10.0700 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:27:10.0700 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.0700 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.0700 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:27:10.0700 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.0700 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:27:10.0700 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:27:10.0700 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.0700 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:27:10.0700 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.0700 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:27:10.0700 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:27:10.0700 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:27:10.0700 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.0700 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:10.0700 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.0700 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:27:10.0700 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:27:10.0700 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:27:10.0700 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:27:10.0883 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:27:10.0883 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:27:10.0883 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:27:10.0883 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:27:10.1024 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:27:10.1024 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:27:10.1024 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:27:10.1024 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.1024 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:27:10.1024 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.1024 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:10.1024 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:27:10.1024 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:27:10.1024 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:27:10.1024 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:27:10.1024 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.1161 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:27:10.1161 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.1161 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:27:10.1161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.1161 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:27:10.1161 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:27:10.1161 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:27:10.1161 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.1161 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:27:10.1161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.1161 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:27:10.1161 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:27:10.1161 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:27:10.1161 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:27:10.1161 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:27:10.1161 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:27:10.1161 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:27:10.1161 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:27:10.1161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.1161 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:27:10.1161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:27:10.1161 Trace Initializing File Target[logfile]
+2020-07-26 13:27:10.1161 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:27:10.1161 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:27:10.1161 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:27:10.1161 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:27:10.1161 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:27:10.1161 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:27:10.1161 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:27:10.1320 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:27:10.1320 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:27:25.2206 Info AppDomain Shutting down. Logger closing...
+2020-07-26 13:27:25.2206 Debug Stopping file watching for path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config'
+2020-07-26 13:27:25.2277 Trace Flushing all 1 targets...
+2020-07-26 13:27:25.2277 Trace ForEachItemInParallel() 1 items
+2020-07-26 13:27:25.2277 Trace FileTarget(Name=logfile): FlushAsync
+2020-07-26 13:27:25.2277 Trace Continuation invoked: 
+2020-07-26 13:27:25.2277 Trace Parallel task completed. 0 items remaining
+2020-07-26 13:27:25.2277 Debug Flush completed
+2020-07-26 13:27:25.2277 Trace FileTarget(Name=logfile): FlushAsync Done
+2020-07-26 13:27:25.2277 Debug Closing logging configuration...
+2020-07-26 13:27:25.2277 Trace Closing File Target[logfile]
+2020-07-26 13:27:25.2413 Debug Closing target 'File Target[logfile]'.
+2020-07-26 13:27:25.2413 Debug Closed target 'File Target[logfile]'.
+2020-07-26 13:27:25.2413 Trace Closing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${shortdate}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:27:25.2413 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${longdate}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${uppercase}
+2020-07-26 13:27:25.2413 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${level}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${literal}
+2020-07-26 13:27:25.2413 Trace Closing Layout Renderer: ${message}
+2020-07-26 13:27:25.2413 Debug Finished closing logging configuration.
+2020-07-26 13:27:25.2413 Info Logger has been shut down.
+2020-07-26 13:30:23.7618 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:30:23.8627 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:30:23.8751 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:30:23.8960 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:30:23.9119 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:30:23.9266 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:30:23.9496 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:30:24.0078 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:30:24.0078 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:30:24.0321 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:30:24.0422 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:30:24.0422 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:30:24.0642 Debug Auto loading done
+2020-07-26 13:30:24.0751 Info Message Template Auto Format enabled
+2020-07-26 13:30:24.1064 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.1194 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:30:24.1368 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:30:24.1368 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:30:24.1575 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.1674 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:24.1674 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.1865 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:30:24.2004 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:30:24.2004 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:30:24.2194 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:24.2303 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:24.2303 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.2488 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:30:24.2585 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.2585 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:30:24.2834 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:30:24.2930 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:30:24.2930 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.3114 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:30:24.3217 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:30:24.3217 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.3404 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:30:24.3404 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:30:24.3590 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:30:24.3680 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.3680 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:24.3878 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.3878 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:30:24.4058 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:30:24.4151 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:30:24.4151 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:24.4339 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:24.4339 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.4525 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:30:24.4617 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:30:24.4617 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:30:24.4835 Trace ParseRulesElement
+2020-07-26 13:30:24.5166 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:30:24.5266 Debug --- NLog configuration dump ---
+2020-07-26 13:30:24.5266 Debug Targets:
+2020-07-26 13:30:24.5476 Debug File Target[logfile]
+2020-07-26 13:30:24.5580 Debug Rules:
+2020-07-26 13:30:24.5707 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:30:24.5707 Debug --- End of NLog configuration dump ---
+2020-07-26 13:30:24.5936 Trace FindReachableObject<System.Object>:
+2020-07-26 13:30:24.6045 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:30:24.6045 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:30:24.6232 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:30:24.6341 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:30:24.6341 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:30:24.6524 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:24.6524 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:24.6720 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:30:24.6809 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:24.6809 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:30:24.7001 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:30:24.7001 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:24.7183 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:30:24.7278 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:24.7278 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:30:24.7476 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:30:24.7595 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:30:24.7595 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:24.7791 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:24.7900 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:24.7900 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:30:24.8098 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:30:24.8219 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:30:24.8219 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:30:24.8449 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:30:24.8583 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:30:24.8780 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:30:24.8897 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:30:24.9001 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:30:24.9001 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:30:24.9216 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:30:24.9358 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:24.9459 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:30:24.9459 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:24.9656 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:24.9797 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:30:24.9928 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:30:24.9928 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:30:25.0175 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:30:25.0292 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:25.0425 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:30:25.0425 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:25.0631 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:30:25.0732 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:25.0732 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:30:25.0917 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:30:25.1018 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:30:25.1018 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:25.1202 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:30:25.1202 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:25.1397 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:30:25.1494 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:30:25.1494 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:30:25.1688 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:30:25.1688 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:30:25.1873 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:30:25.1964 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:30:25.1964 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:30:25.2151 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:25.2151 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:30:25.2348 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:30:25.2439 Trace Initializing File Target[logfile]
+2020-07-26 13:30:25.2439 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:30:25.2670 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:30:25.2764 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:30:25.2764 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:30:25.2957 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:30:25.3049 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:30:25.3049 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:30:25.3244 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:30:25.3244 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-07-26 13:31:19.0408 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:31:19.1378 Debug Found assembly location directory: 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-07-26 13:31:19.1501 Debug Search for auto loading files in location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:31:19.1678 Debug Start auto loading, location: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1
+2020-07-26 13:31:19.1796 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:31:19.1796 Info Loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-07-26 13:31:19.2061 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-07-26 13:31:19.2157 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-07-26 13:31:19.2269 Info Auto loading assembly file: F:\_aspa\GuitarShop\GuitarShopServer\WebApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-07-26 13:31:19.2269 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:31:19.2482 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-07-26 13:31:19.2584 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-07-26 13:31:19.2584 Debug Auto loading done
+2020-07-26 13:31:19.2771 Info Message Template Auto Format enabled
+2020-07-26 13:31:19.3084 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.3211 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:31:19.3376 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:31:19.3376 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:31:19.3572 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.3672 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:19.3672 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.3868 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:31:19.3984 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:31:19.3984 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:31:19.4180 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:19.4294 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:19.4294 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.4498 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-07-26 13:31:19.4605 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.4605 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:31:19.4866 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-07-26 13:31:19.4959 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:31:19.4959 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.5146 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:31:19.5247 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:31:19.5247 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.5431 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:31:19.5431 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-07-26 13:31:19.5617 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-07-26 13:31:19.5711 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.5711 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:19.5897 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.5897 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:31:19.6079 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:31:19.6174 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:31:19.6174 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:19.6363 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:19.6363 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:19.6544 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:31:19.6640 Info Adding target FileTarget(Name=logfile)
+2020-07-26 13:31:19.6640 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-07-26 13:31:19.6848 Trace ParseRulesElement
+2020-07-26 13:31:19.7186 Debug Watching path 'F:\_aspa\GuitarShop\GuitarShopServer\WebApi' filter 'nlog.config' for changes.
+2020-07-26 13:31:19.7289 Debug --- NLog configuration dump ---
+2020-07-26 13:31:19.7289 Debug Targets:
+2020-07-26 13:31:19.7489 Debug File Target[logfile]
+2020-07-26 13:31:19.7583 Debug Rules:
+2020-07-26 13:31:19.7583 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-07-26 13:31:19.7797 Debug --- End of NLog configuration dump ---
+2020-07-26 13:31:19.7933 Trace FindReachableObject<System.Object>:
+2020-07-26 13:31:19.7933 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-07-26 13:31:19.8123 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-07-26 13:31:19.8222 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:31:19.8222 Trace   Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:31:19.8408 Trace   Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:31:19.8408 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:19.8594 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:19.8695 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:31:19.8695 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:19.8885 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:31:19.8885 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:31:19.9077 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:19.9170 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:31:19.9170 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:19.9364 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:31:19.9454 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:31:19.9454 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:31:19.9639 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:19.9639 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:19.9830 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:19.9931 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:31:19.9931 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:31:20.0121 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-07-26 13:31:20.0121 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-07-26 13:31:20.0338 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\_aspa\GuitarShop\GuitarShopServer\WebApi/nlog.config
+2020-07-26 13:31:20.0460 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-07-26 13:31:20.0629 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-07-26 13:31:20.0730 Trace Initializing Layout Renderer: ${message}
+2020-07-26 13:31:20.0730 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:31:20.0924 Trace Initializing Layout Renderer: ${level}
+2020-07-26 13:31:20.1016 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-07-26 13:31:20.1016 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:20.1247 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:31:20.1337 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:20.1337 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:20.1582 Trace Initializing Layout Renderer: ${uppercase}
+2020-07-26 13:31:20.1696 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:31:20.1799 Trace Initializing Layout Renderer: ${longdate}
+2020-07-26 13:31:20.1799 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-07-26 13:31:20.2036 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:20.2139 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:31:20.2139 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:20.2351 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-07-26 13:31:20.2446 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:20.2446 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-07-26 13:31:20.2639 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-07-26 13:31:20.2736 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-07-26 13:31:20.2736 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:20.2919 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-07-26 13:31:20.2919 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:20.3104 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-07-26 13:31:20.3201 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:31:20.3201 Trace Initializing Layout Renderer: ${shortdate}
+2020-07-26 13:31:20.3388 Trace Initializing Layout Renderer: ${literal}
+2020-07-26 13:31:20.3388 Trace Initializing 'F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'
+2020-07-26 13:31:20.3571 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-07-26 13:31:20.3666 Trace Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:31:20.3666 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-07-26 13:31:20.3858 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:20.3858 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-07-26 13:31:20.4054 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-07-26 13:31:20.4148 Trace Initializing File Target[logfile]
+2020-07-26 13:31:20.4148 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-07-26 13:31:20.4356 Trace Scanning FileTarget 'File Target[logfile]'
+2020-07-26 13:31:20.4451 Trace  Scanning Property FileName ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-07-26 13:31:20.4451 Trace  Scanning SimpleLayout ''F:\_aspa\GuitarShop/GuitarShopServer\logs\${shortdate}_logfile.txt''
+2020-07-26 13:31:20.4649 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-07-26 13:31:20.4649 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-07-26 13:31:20.4862 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-07-26 13:31:20.4958 Trace File Target[logfile] has 2 layouts
+2020-07-26 13:31:20.4958 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory

@@ -18,7 +18,7 @@ namespace Entities.Models
             public double Price { get; set; }
 
             [Required(ErrorMessage = "Тип товара обязателен")]
-            [StringLength(15, ErrorMessage = "Типы больше 4 символов")]
+            [StringLength(maximumLength: 15, MinimumLength = 3, ErrorMessage = "Тип должен состоять из 3-15 символов")]
             public string Type { get; set; }
 
             public string ImgPath { get; set; }

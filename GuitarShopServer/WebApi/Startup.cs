@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -35,6 +36,8 @@ namespace WebApi
             services.ConfigureLoggerService();
             services.ConfigureMsSqlContext(Configuration);
             services.ConfigureRepositoryWrapper();
+            services.ConfigureSwagger();
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddControllers();
         }
@@ -60,6 +63,14 @@ namespace WebApi
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger();
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "GuitarShopServer");
+            });
 
             app.UseEndpoints(endpoints =>
             {
